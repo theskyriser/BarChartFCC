@@ -1,0 +1,41 @@
+.bar {
+    fill: blue;
+    stroke: black;
+    stroke-width: 0.5px
+    
+}
+
+.bar:hover {
+    fill: red
+}
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+svg {
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgb(174, 204, 230);
+}
+
+.container {
+    
+    text-align: center;
+}
+
+#tooltip 
+{	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: auto;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lavender;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
